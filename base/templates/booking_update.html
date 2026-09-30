@@ -1,0 +1,14 @@
+{% extends "main.html" %}
+
+{% block content %}
+<form action="" method="post">
+    <h1>Update the Details of the Booking..!</h1>
+{% csrf_token %}
+
+{{form.as_p}}
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</form>
+<a href="{% url 'booking_read'%}"><button>Back</button></a>
+
+{% endblock content %}

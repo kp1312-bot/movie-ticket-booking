@@ -1,0 +1,13 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<section class="movie">
+    <h1>Are you sure to Delete {{data.title}}??</h1>
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <button type="submit">Yes</button>
+</form>
+<a href="{% url 'read'%}"><button>No</button></a>
+</section>
+
+{% endblock content %}

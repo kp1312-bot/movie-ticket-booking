@@ -1,0 +1,15 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<h1>Show Details</h1>
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form.as_p}}
+
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form>
+<a href="{% url 'read' %}"><button>Back</button></a>
+
+{% endblock content %}

@@ -1,0 +1,12 @@
+{% extends "main.html"%}
+
+{% block content %}
+<form action="" method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form>
+<a href="{% url 'seat_read'%}"><button>Back</button></a>
+
+{% endblock content %}

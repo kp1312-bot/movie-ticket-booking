@@ -1,0 +1,16 @@
+{% extends "main.html" %}
+
+{% block content %}
+<h1>The Details of all BookingSeat..!</h1>
+{% for i in data%}
+<ul>
+    <li>Booking : {{i.booking}}</li>
+    <li>Seat : {{i.seat}}</li>
+</ul>
+
+<a href="{% url 'bookseat_update' i.id%}"><button>Update</button></a>
+<a href="{% url 'bookseat_delete' i.id%}"><button>Delete</button></a>
+{% endfor%}
+
+
+{% endblock content %}

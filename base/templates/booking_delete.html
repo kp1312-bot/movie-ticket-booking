@@ -1,0 +1,12 @@
+{% extends "main.html" %}
+
+{% block content %}
+<h1>Are you sure to remove {{data.user}}</h1>
+<form action="" method="post">
+    {% csrf_token %}
+
+    <button type="submit">Yes</button>
+</form>
+<a href="{% url 'booking_read'%}"><button>No</button></a>
+
+{% endblock content %}

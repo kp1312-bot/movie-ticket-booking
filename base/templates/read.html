@@ -1,0 +1,24 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<section class="movie">
+    <h1>Details of all Movie List</h1>
+{% for i in data %}
+<ul>
+    <li>Title : {{i.title}}</li>
+    <li>Description : {{i.description}}</li>
+    <li>Genre : {{i.genre}}</li>
+    <li>Language : {{i.language}}</li>
+    <li>Duration : {{i.duration}}</li>
+    <li>Release_Date : {{i.release_date}}</li>
+
+    {% if i.doc_pic %}
+    <img src="{{i.doc_pic.url}}"  width="250px" height="250px">
+    {% endif %}
+</ul>
+<a href="{% url 'update' i.id %}"><button>Update</button></a>
+<a href="{% url 'delete' i.id %}"><button>Delete</button></a>
+{% endfor %}
+</section>
+
+{% endblock content %}

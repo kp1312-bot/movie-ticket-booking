@@ -1,0 +1,14 @@
+ {% extends "main.html" %}
+
+
+{% block content %}
+  
+    <h1>Are you sure that you want to leave me??</h1>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">CHAL NIKAL!!</button>
+    </form>
+
+    <a href="{% url 'profile' %}"><button>NAHI JAANA HAI</button></a>
+
+{% endblock content %}

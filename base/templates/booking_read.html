@@ -1,0 +1,18 @@
+{% extends "main.html" %}
+
+{% block content %}
+<h1>Details of all Booking </h1>
+{% for i in data %}
+<ul>
+    <!-- fields = ['user','show','total_amount','status'] -->
+    <li>User : {{i.user}}</li>
+    <li>Show : {{i.show}}</li>
+    <li>Total_amount : {{i.total_amount}}</li>
+    <li>Status : {{i.status}}</li>
+</ul>
+
+<a href="{% url 'booking_update' i.id%}"><button>Update</button></a>
+<a href="{% url 'booking_delete' i.id%}"><button>Delete</button></a>
+{% endfor %}
+
+{% endblock content %}

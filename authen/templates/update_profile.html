@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+
+
+{% block content %}
+  
+    <form method="post">
+        {% csrf_token %}
+        <table border="2">
+            <tr>
+                <th>FIRSTNAME: </th>
+                <td><input type="text" name = 'fn' value="{{ data.first_name }}"></td>
+            </tr>
+            <tr>
+                <th>LASTNAME: </th>
+                <td><input type="text" name = 'ln' value="{{ data.last_name }}"></td>
+            </tr>
+            <tr>
+                <th>EMAIL: </th>
+                <td><input type="email" name="email" value="{{ data.email }}"></td>
+            </tr>
+            <tr>
+                <th>USERNAME: </th>
+                <td><input type="text" name = 'un' value="{{ data.username }}"></td>
+            </tr>
+            <tr>
+                <td><button type="submit">SUBMIT</button></td>
+            </tr>
+        </table>
+    </form>
+
+
+{% endblock content %}

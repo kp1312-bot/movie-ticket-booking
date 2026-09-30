@@ -1,0 +1,456 @@
+/* Reset & base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #1a1a2e;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+.heading {
+    text-align: center;
+    padding: 20px 10px 10px;
+}
+
+.heading h1 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+/* Navbar */
+.navbar {
+    padding: 10px 0 20px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    display: block;
+    color: #e0e0e0;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: background-color 0.25s ease, color 0.25s ease, transform 0.15s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #e94560;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+/* Highlight auth-related links (Signup, Signin, Signout, Profile) */
+.navbar ul li:last-child a,
+.navbar ul li:nth-last-child(2) a {
+    background-color: #0f3460;
+}
+
+.navbar ul li:last-child a:hover,
+.navbar ul li:nth-last-child(2) a:hover {
+    background-color: #e94560;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .navbar ul li a {
+        width: 200px;
+        text-align: center;
+    }
+}
+
+/* //////////////// */
+
+
+ /* signin */
+ /* ==========================================================
+   auth.css — Styles for Sign In / Sign Up pages
+   ========================================================== */
+
+:root {
+  --primary: #4f46e5;
+  --primary-dark: #4338ca;
+  --bg: #f3f4f6;
+  --card-bg: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --radius: 10px;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  background: var(--bg);
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  margin: 0;
+}
+
+/* Center the whole signin/signup section on the page */
+.signin,
+.signup {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 32px 28px;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+.signin input{
+  border: none;
+}
+
+.signin h1,
+.signup h1 {
+  font-size: 1.4rem;
+  letter-spacing: 0.03em;
+  margin-bottom: 24px;
+  color: var(--text);
+  text-transform: uppercase;
+}
+
+/* Remove the old bordered-table look, use it purely for layout */
+.signin table,
+.signup table {
+  width: 100%;
+  border: none !important;
+  border-collapse: collapse;
+}
+
+.signin table tr,
+.signup table tr {
+  display: block;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.signin table th,
+.signup table th {
+  display: block;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 6px;
+  text-align: left;
+  border: none;
+  color: black;
+}
+
+.signin table td,
+.signup table td {
+  display: block;
+  border: none;
+}
+
+/* Inputs */
+.signin input[type="text"],
+.signin input[type="password"],
+.signup input[type="text"],
+.signup input[type="email"],
+.signup input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.signin input:focus,
+.signup input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+}
+
+/* Submit button */
+.signin button[type="submit"],
+.signup button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.signin button[type="submit"]:hover,
+.signup button[type="submit"]:hover {
+  background: var(--primary-dark);
+}
+
+/* Footer link text */
+.signin p,
+.signup p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.signin p a,
+.signup p a {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signin p a:hover,
+.signup p a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .signin,
+  .signup {
+    margin: 30px 16px;
+    padding: 24px 20px;
+  }
+}
+
+/* Movie */
+
+ /* ============================================
+   Movie App Stylesheet
+   Link this in main.html:
+   <link rel="stylesheet" href="{% static 'css/style.css' %}">
+   ============================================ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #2b2b2b;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.movie {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.movie h1 {
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 15px;
+}
+
+/* ---------- Forms (Add / Update / Delete) ---------- */
+
+.movie form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.movie form p {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border: none;
+}
+
+.movie form label {
+    font-weight: 600;
+    color: #374151;
+    font-size: 0.95rem;
+}
+
+.movie form input[type="text"],
+.movie form input[type="number"],
+.movie form input[type="date"],
+.movie form input[type="file"],
+.movie form select,
+.movie form textarea {
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 100%;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.movie form input:focus,
+.movie form select:focus,
+.movie form textarea:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.movie form textarea {
+    resize: vertical;
+    min-height: 90px;
+}
+.movie input{
+  border: none;
+}
+
+/* ---------- Buttons ---------- */
+
+button {
+    cursor: pointer;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+button[type="submit"] {
+    background-color: #4f46e5;
+    color: #ffffff;
+}
+
+button[type="submit"]:hover {
+    background-color: #4338ca;
+}
+
+button[type="reset"] {
+    background-color: #e5e7eb;
+    color: #374151;
+}
+
+button[type="reset"]:hover {
+    background-color: #d1d5db;
+}
+
+.movie > a button {
+    background-color: #6b7280;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.movie > a button:hover {
+    background-color: #4b5563;
+}
+
+/* ---------- Movie List (read page) ---------- */
+
+.movie ul {
+    list-style: none;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin-bottom: 15px;
+}
+
+.movie ul li {
+    padding: 4px 0;
+    color: #374151;
+}
+
+.movie ul li:first-child {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.movie ul img {
+    display: block;
+    margin-top: 10px;
+    border-radius: 6px;
+    object-fit: cover;
+    border: 1px solid #e5e7eb;
+}
+
+/* Update / Delete buttons under each list item */
+
+.movie > a[href*="update"] button {
+    background-color: #f59e0b;
+    color: #ffffff;
+    margin: 0 8px 20px 0;
+}
+
+.movie > a[href*="update"] button:hover {
+    background-color: #d97706;
+}
+
+.movie > a[href*="delete"] button {
+    background-color: #ef4444;
+    color: #ffffff;
+    margin: 0 0 20px 0;
+}
+
+.movie > a[href*="delete"] button:hover {
+    background-color: #dc2626;
+}
+
+/* ---------- Delete confirmation page ---------- */
+
+.movie form button[type="submit"] {
+    background-color: #ef4444;
+}
+
+.movie form button[type="submit"]:hover {
+    background-color: #dc2626;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 600px) {
+    .movie {
+        padding: 20px;
+        margin: 15px;
+    }
+
+    .movie h1 {
+        font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,32 @@
+
+{% extends "main.html" %}
+
+
+{% block content %}
+  
+  <section class="signin">
+    <h1>SIGIN TO YOUR ACCOUNT</h1>
+  <table border="2">
+    <form method="post">
+        {% csrf_token %}
+    
+    <tr>
+        <th>USERNAME </th>
+        <td><input type="text" name="un" required></td>
+    </tr>
+
+    <tr>
+        <th>PASSWORD </th>
+        <td><input type="password" name="pw" required></td>
+    </tr>
+
+    <tr>
+        <td colspan="2"><button type="submit">SUBMIT</button></td>
+    </tr>
+    </form>
+  </table>  
+
+  <p>Don't have an account? Signup <a href="{% url 'signup' %}">here</a></p>
+
+  </section>
+{% endblock content %}

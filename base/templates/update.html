@@ -1,0 +1,14 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<section class="movie">
+    <h1>Update the Details of the Movie ..!</h1>
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit">Submit</button>
+</form>
+<a href="{% url 'read'%}"><button>Back</button></a>
+</section>
+
+{% endblock content %}

@@ -1,0 +1,14 @@
+{% extends "main.html" %}
+
+{% block content %}
+<h1>Update the Details of the BookingSeat..!</h1>
+<form action="" method="post">
+    {% csrf_token %}
+
+    {{from.as_p}}
+    <button type="submit">Submit</button>
+    <button type="reset">Cancel</button>
+</form>
+<a href="{% url 'bookseat_read'%}"><button>Back</button></a>
+
+{% endblock content %}

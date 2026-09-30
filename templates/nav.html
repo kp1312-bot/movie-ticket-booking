@@ -1,0 +1,60 @@
+
+<nav>
+    <section class="heading">
+        <h1>Movie Ticket Booking</h1>
+    </section>
+
+    <section class="navbar">
+        <ul>
+            {% if request.user.is_authenticated %}
+            <li>
+                <a href="{% url 'create' %}">Movie</a>
+            </li>
+
+            <li>
+                <a href="{% url 'read' %}">Movie Read</a>
+            </li>
+
+            <li>
+                <a href="{% url 'show_create' %}">Show</a>
+            </li>
+
+            <li>
+                <a href="{% url 'show_read' %}">Show Read</a>
+            </li>
+
+            <li>
+                <a href="{% url 'seat_create' %}">Seat</a>
+            </li>
+
+            <li>
+                <a href="{% url 'seat_read' %}">Seat Read</a>
+            </li>
+
+            <li>
+                <a href="{% url 'booking_create' %}">Booking</a>
+            </li>
+
+            <li>
+                <a href="{% url 'booking_read' %}">Booking Read</a>
+            </li>
+
+            <li>
+                <a href="{% url 'bookseat_create' %}">Booking Seat</a>
+            </li>
+
+            <li>
+                <a href="{% url 'bookseat_read' %}">Booking Seat Read</a>
+            </li>
+            <li><a href="{% url 'profile'%}">Profile</a></li>
+            <li><a href="{% url 'signout'%}">Signout</a></li>
+            {% else %}
+
+            <li><a href="{% url 'signup'%}">Signup</a></li>
+            <li><a href="{% url 'signin'%}">Signin</a></li>
+
+            {% endif %}
+        </ul>
+    </section>
+</nav>
+
