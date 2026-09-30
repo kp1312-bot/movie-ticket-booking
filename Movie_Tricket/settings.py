@@ -15,8 +15,12 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 
-
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+SECRET_KEY = os.environ.get(
+    'SECRET_KEY',
+    'django-insecure-3)8a0^ib%k*cg(bbryk&whif-^l_77+lfoqd0#!x+sgh!^tqu2'
+)
 
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
@@ -26,6 +30,10 @@ ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 if RENDER_EXTERNAL_HOSTNAME:
     ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
+
+
+
+
 # Application definition
 
 INSTALLED_APPS = [
