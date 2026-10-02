@@ -1,0 +1,380 @@
+[
+{
+  "model": "base.seat",
+  "pk": 1,
+  "fields": {
+    "show": 1,
+    "seat_number": "A5",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 2,
+  "fields": {
+    "show": 1,
+    "seat_number": "B1",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 3,
+  "fields": {
+    "show": 3,
+    "seat_number": "B2",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 4,
+  "fields": {
+    "show": 3,
+    "seat_number": "B3",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 5,
+  "fields": {
+    "show": 3,
+    "seat_number": "B4",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 6,
+  "fields": {
+    "show": 3,
+    "seat_number": "B5",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 7,
+  "fields": {
+    "show": 4,
+    "seat_number": "A1",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 8,
+  "fields": {
+    "show": 4,
+    "seat_number": "A2",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 9,
+  "fields": {
+    "show": 4,
+    "seat_number": "A3",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 10,
+  "fields": {
+    "show": 4,
+    "seat_number": "A4",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 11,
+  "fields": {
+    "show": 4,
+    "seat_number": "B1",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 12,
+  "fields": {
+    "show": 4,
+    "seat_number": "B2",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 13,
+  "fields": {
+    "show": 4,
+    "seat_number": "B3",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 14,
+  "fields": {
+    "show": 4,
+    "seat_number": "B4",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 15,
+  "fields": {
+    "show": 4,
+    "seat_number": "B5",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 16,
+  "fields": {
+    "show": 4,
+    "seat_number": "C1",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 17,
+  "fields": {
+    "show": 4,
+    "seat_number": "C2",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 18,
+  "fields": {
+    "show": 4,
+    "seat_number": "C3",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 19,
+  "fields": {
+    "show": 4,
+    "seat_number": "C4",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 20,
+  "fields": {
+    "show": 4,
+    "seat_number": "C5",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 21,
+  "fields": {
+    "show": 4,
+    "seat_number": "E1",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 22,
+  "fields": {
+    "show": 4,
+    "seat_number": "E2",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 23,
+  "fields": {
+    "show": 4,
+    "seat_number": "E3",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 24,
+  "fields": {
+    "show": 4,
+    "seat_number": "E4",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 25,
+  "fields": {
+    "show": 4,
+    "seat_number": "E5",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 26,
+  "fields": {
+    "show": 5,
+    "seat_number": "A1",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 27,
+  "fields": {
+    "show": 5,
+    "seat_number": "A2",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 28,
+  "fields": {
+    "show": 5,
+    "seat_number": "A3",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 29,
+  "fields": {
+    "show": 5,
+    "seat_number": "A4",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 30,
+  "fields": {
+    "show": 5,
+    "seat_number": "A5",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 31,
+  "fields": {
+    "show": 5,
+    "seat_number": "B1",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 32,
+  "fields": {
+    "show": 5,
+    "seat_number": "B2",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 33,
+  "fields": {
+    "show": 5,
+    "seat_number": "B3",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 34,
+  "fields": {
+    "show": 5,
+    "seat_number": "B4",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 35,
+  "fields": {
+    "show": 5,
+    "seat_number": "B5",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 36,
+  "fields": {
+    "show": 5,
+    "seat_number": "C1",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 37,
+  "fields": {
+    "show": 5,
+    "seat_number": "C2",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 38,
+  "fields": {
+    "show": 5,
+    "seat_number": "C3",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 39,
+  "fields": {
+    "show": 5,
+    "seat_number": "C4",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 40,
+  "fields": {
+    "show": 5,
+    "seat_number": "C5",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 41,
+  "fields": {
+    "show": 6,
+    "seat_number": "A1",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 42,
+  "fields": {
+    "show": 6,
+    "seat_number": "A2",
+    "is_booked": false
+  }
+}
+]
