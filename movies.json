@@ -1,0 +1,170 @@
+[
+{
+  "model": "base.movie",
+  "pk": 1,
+  "fields": {
+    "title": "KGF 2",
+    "description": "Action Movie",
+    "genre": "Action",
+    "language": "Hindi",
+    "duration": 1,
+    "release_date": "2026-09-02",
+    "poster": "photo/KGF_Rg67MKX.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 2,
+  "fields": {
+    "title": "PK",
+    "description": "Comdey Movie",
+    "genre": "Comdey",
+    "language": "Hindi",
+    "duration": 2,
+    "release_date": "2026-09-09",
+    "poster": "photo/PK.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 3,
+  "fields": {
+    "title": "Pushpa 2",
+    "description": "Action movie",
+    "genre": "Action",
+    "language": "Hindi",
+    "duration": 180,
+    "release_date": "2024-12-05",
+    "poster": "photo/pushpa.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 5,
+  "fields": {
+    "title": "Chhaava",
+    "description": "A historical drama portraying the life and battles of Chhatrapati Sambhaji Maharaj",
+    "genre": "Historical,Drama",
+    "language": "Hindi",
+    "duration": 241,
+    "release_date": "2025-02-14",
+    "poster": "photo/Chhaavaa.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 6,
+  "fields": {
+    "title": "Kantara",
+    "description": "A village man become involved in a conflict connected to tradition, land and spirituality",
+    "genre": "Action, Drama",
+    "language": "Hindi",
+    "duration": 241,
+    "release_date": "2025-02-14",
+    "poster": "photo/kantara.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 7,
+  "fields": {
+    "title": "RRR",
+    "description": "Two revolutionary characters join forces against British rule in a fictional historical story",
+    "genre": "Action",
+    "language": "Kannada, Hindi",
+    "duration": 248,
+    "release_date": "2022-03-25",
+    "poster": "photo/RRR.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 8,
+  "fields": {
+    "title": "3 idiots",
+    "description": "Three engineering students experience friendship, college life  and challenges",
+    "genre": "Comedy,Drama",
+    "language": "Hindi",
+    "duration": 250,
+    "release_date": "2009-12-25",
+    "poster": "photo/3_idiots.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 9,
+  "fields": {
+    "title": "Dhurandhar",
+    "description": "A mysterious man enters the criminal underworld on a  dangerous mission",
+    "genre": "Action, Thriller",
+    "language": "Hindi",
+    "duration": 334,
+    "release_date": "2025-12-05",
+    "poster": "photo/dhurandhar.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 10,
+  "fields": {
+    "title": "Spider-Man : No Way Home",
+    "description": "Spider-Man faces villains from different universes after a spell goes wrong",
+    "genre": "Action, Adventure, Fantasy",
+    "language": "English",
+    "duration": 228,
+    "release_date": "2021-12-17",
+    "poster": "photo/spider-man.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 11,
+  "fields": {
+    "title": "The Dark Knight",
+    "description": "Batman faces a criminal mastermind who creates chaos in Gotham City.",
+    "genre": "Action, Crime, Drama",
+    "language": "English",
+    "duration": 228,
+    "release_date": "2008-07-18",
+    "poster": "photo/the_dark_knight.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 12,
+  "fields": {
+    "title": "12th Fail",
+    "description": "A young man overcomes poverty and failures while preparing for competitive exams",
+    "genre": "Biography,Drama",
+    "language": "Hinid",
+    "duration": 227,
+    "release_date": "2023-10-27",
+    "poster": "photo/12th_fail.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 13,
+  "fields": {
+    "title": "The Lion King",
+    "description": "A young lion must accept his destiny and become king",
+    "genre": "Animations, Adventure, Drama",
+    "language": "English",
+    "duration": 128,
+    "release_date": "1994-06-24",
+    "poster": "photo/the_lion_king.png",
+    "status": true
+  }
+}
+]
