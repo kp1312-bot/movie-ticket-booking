@@ -1,0 +1,598 @@
+[
+{
+  "model": "base.movie",
+  "pk": 1,
+  "fields": {
+    "title": "KGF 2",
+    "description": "Action Movie",
+    "genre": "Action",
+    "language": "Hindi",
+    "duration": 1,
+    "release_date": "2026-09-02",
+    "poster": "photo/KGF_Rg67MKX.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 2,
+  "fields": {
+    "title": "PK",
+    "description": "Comdey Movie",
+    "genre": "Comdey",
+    "language": "Hindi",
+    "duration": 2,
+    "release_date": "2026-09-09",
+    "poster": "photo/PK.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 3,
+  "fields": {
+    "title": "Pushpa 2",
+    "description": "Action movie",
+    "genre": "Action",
+    "language": "Hindi",
+    "duration": 180,
+    "release_date": "2024-12-05",
+    "poster": "photo/pushpa.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 5,
+  "fields": {
+    "title": "Chhaava",
+    "description": "A historical drama portraying the life and battles of Chhatrapati Sambhaji Maharaj",
+    "genre": "Historical,Drama",
+    "language": "Hindi",
+    "duration": 241,
+    "release_date": "2025-02-14",
+    "poster": "photo/Chhaavaa.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 6,
+  "fields": {
+    "title": "Kantara",
+    "description": "A village man become involved in a conflict connected to tradition, land and spirituality",
+    "genre": "Action, Drama",
+    "language": "Hindi",
+    "duration": 241,
+    "release_date": "2025-02-14",
+    "poster": "photo/kantara.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 7,
+  "fields": {
+    "title": "RRR",
+    "description": "Two revolutionary characters join forces against British rule in a fictional historical story",
+    "genre": "Action",
+    "language": "Kannada, Hindi",
+    "duration": 248,
+    "release_date": "2022-03-25",
+    "poster": "photo/RRR.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 8,
+  "fields": {
+    "title": "3 idiots",
+    "description": "Three engineering students experience friendship, college life  and challenges",
+    "genre": "Comedy,Drama",
+    "language": "Hindi",
+    "duration": 250,
+    "release_date": "2009-12-25",
+    "poster": "photo/3_idiots.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 9,
+  "fields": {
+    "title": "Dhurandhar",
+    "description": "A mysterious man enters the criminal underworld on a  dangerous mission",
+    "genre": "Action, Thriller",
+    "language": "Hindi",
+    "duration": 334,
+    "release_date": "2025-12-05",
+    "poster": "photo/dhurandhar.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 10,
+  "fields": {
+    "title": "Spider-Man : No Way Home",
+    "description": "Spider-Man faces villains from different universes after a spell goes wrong",
+    "genre": "Action, Adventure, Fantasy",
+    "language": "English",
+    "duration": 228,
+    "release_date": "2021-12-17",
+    "poster": "photo/spider-man.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 11,
+  "fields": {
+    "title": "The Dark Knight",
+    "description": "Batman faces a criminal mastermind who creates chaos in Gotham City.",
+    "genre": "Action, Crime, Drama",
+    "language": "English",
+    "duration": 228,
+    "release_date": "2008-07-18",
+    "poster": "photo/the_dark_knight.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 12,
+  "fields": {
+    "title": "12th Fail",
+    "description": "A young man overcomes poverty and failures while preparing for competitive exams",
+    "genre": "Biography,Drama",
+    "language": "Hinid",
+    "duration": 227,
+    "release_date": "2023-10-27",
+    "poster": "photo/12th_fail.jpg",
+    "status": true
+  }
+},
+{
+  "model": "base.movie",
+  "pk": 13,
+  "fields": {
+    "title": "The Lion King",
+    "description": "A young lion must accept his destiny and become king",
+    "genre": "Animations, Adventure, Drama",
+    "language": "English",
+    "duration": 128,
+    "release_date": "1994-06-24",
+    "poster": "photo/the_lion_king.png",
+    "status": true
+  }
+},
+{
+  "model": "base.show",
+  "pk": 1,
+  "fields": {
+    "movie": 2,
+    "show_date": "2026-09-08",
+    "show_time": "15:45:00",
+    "screen": "HD"
+  }
+},
+{
+  "model": "base.show",
+  "pk": 3,
+  "fields": {
+    "movie": 1,
+    "show_date": "2026-09-27",
+    "show_time": "20:00:00",
+    "screen": "HD"
+  }
+},
+{
+  "model": "base.show",
+  "pk": 4,
+  "fields": {
+    "movie": 3,
+    "show_date": "2026-09-28",
+    "show_time": "21:00:00",
+    "screen": "HD"
+  }
+},
+{
+  "model": "base.show",
+  "pk": 5,
+  "fields": {
+    "movie": 5,
+    "show_date": "2026-10-02",
+    "show_time": "14:30:00",
+    "screen": "HD"
+  }
+},
+{
+  "model": "base.show",
+  "pk": 6,
+  "fields": {
+    "movie": 7,
+    "show_date": "2026-10-02",
+    "show_time": "16:30:00",
+    "screen": "HD"
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 1,
+  "fields": {
+    "show": 1,
+    "seat_number": "A5",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 2,
+  "fields": {
+    "show": 1,
+    "seat_number": "B1",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 3,
+  "fields": {
+    "show": 3,
+    "seat_number": "B2",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 4,
+  "fields": {
+    "show": 3,
+    "seat_number": "B3",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 5,
+  "fields": {
+    "show": 3,
+    "seat_number": "B4",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 6,
+  "fields": {
+    "show": 3,
+    "seat_number": "B5",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 7,
+  "fields": {
+    "show": 4,
+    "seat_number": "A1",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 8,
+  "fields": {
+    "show": 4,
+    "seat_number": "A2",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 9,
+  "fields": {
+    "show": 4,
+    "seat_number": "A3",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 10,
+  "fields": {
+    "show": 4,
+    "seat_number": "A4",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 11,
+  "fields": {
+    "show": 4,
+    "seat_number": "B1",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 12,
+  "fields": {
+    "show": 4,
+    "seat_number": "B2",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 13,
+  "fields": {
+    "show": 4,
+    "seat_number": "B3",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 14,
+  "fields": {
+    "show": 4,
+    "seat_number": "B4",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 15,
+  "fields": {
+    "show": 4,
+    "seat_number": "B5",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 16,
+  "fields": {
+    "show": 4,
+    "seat_number": "C1",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 17,
+  "fields": {
+    "show": 4,
+    "seat_number": "C2",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 18,
+  "fields": {
+    "show": 4,
+    "seat_number": "C3",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 19,
+  "fields": {
+    "show": 4,
+    "seat_number": "C4",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 20,
+  "fields": {
+    "show": 4,
+    "seat_number": "C5",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 21,
+  "fields": {
+    "show": 4,
+    "seat_number": "E1",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 22,
+  "fields": {
+    "show": 4,
+    "seat_number": "E2",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 23,
+  "fields": {
+    "show": 4,
+    "seat_number": "E3",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 24,
+  "fields": {
+    "show": 4,
+    "seat_number": "E4",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 25,
+  "fields": {
+    "show": 4,
+    "seat_number": "E5",
+    "is_booked": false
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 26,
+  "fields": {
+    "show": 5,
+    "seat_number": "A1",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 27,
+  "fields": {
+    "show": 5,
+    "seat_number": "A2",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 28,
+  "fields": {
+    "show": 5,
+    "seat_number": "A3",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 29,
+  "fields": {
+    "show": 5,
+    "seat_number": "A4",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 30,
+  "fields": {
+    "show": 5,
+    "seat_number": "A5",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 31,
+  "fields": {
+    "show": 5,
+    "seat_number": "B1",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 32,
+  "fields": {
+    "show": 5,
+    "seat_number": "B2",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 33,
+  "fields": {
+    "show": 5,
+    "seat_number": "B3",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 34,
+  "fields": {
+    "show": 5,
+    "seat_number": "B4",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 35,
+  "fields": {
+    "show": 5,
+    "seat_number": "B5",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 36,
+  "fields": {
+    "show": 5,
+    "seat_number": "C1",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 37,
+  "fields": {
+    "show": 5,
+    "seat_number": "C2",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 38,
+  "fields": {
+    "show": 5,
+    "seat_number": "C3",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 39,
+  "fields": {
+    "show": 5,
+    "seat_number": "C4",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 40,
+  "fields": {
+    "show": 5,
+    "seat_number": "C5",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 41,
+  "fields": {
+    "show": 6,
+    "seat_number": "A1",
+    "is_booked": true
+  }
+},
+{
+  "model": "base.seat",
+  "pk": 42,
+  "fields": {
+    "show": 6,
+    "seat_number": "A2",
+    "is_booked": false
+  }
+}
+]
